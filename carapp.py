@@ -18,7 +18,7 @@ class Car:
         self.transmission = transmission
         self.acceleration = acceleration  # 0-60 mph in seconds
         self.top_speed = top_speed        # mph
-        self.fuel_economy = fuel_economy  # combined mpg
+        self.fuel_economy = fuel_economy  # combined mpg (or MPGe for Tesla)
         self.price = price                 # USD
         self.ai_level = ai_level            # e.g., "Level 3 Autonomy"
         self.holographic_color = holographic_color
@@ -80,17 +80,17 @@ def create_car_list():
             "AWD", "8-speed automatic", 3.2, 190, 15, 230000,
             "Level 2 Terrain Assist", "Arancio Borealis",
             "The Urus is the world's first Super Sport Utility Vehicle. It combines the soul of a supercar with the practicality of an SUV, offering breathtaking performance and luxury."),
-        Car("Tesla ", "Model X", 2023, "White",
-            "Electric", 641, 627,
-            "RWD", "automatic", 2.1, 203, "Electric", 40000,
-            "Level 2 Terrain Assist", "Arancio Borealis",
-            "The tesla is a electic car and you have to charge it instead of fueling like other gas cars. "),
-        Car("BMW", "M3 competition", 2023, "Isle ",
-            "Electric", 641, 627,
-            "RWD", "automatic", 2.1, 203, "Electric", 40000,
-            "Level 2 Terrain Assist", "Arancio Borealis",
-            "The tesla is a electic car and you have to charge it instead of fueling like other gas cars. "),
-        
+        # New cars:
+        Car("BMW", "M3 Competition", 2023, "Brooklyn Grey",
+            "3.0L Twin-Turbo Inline-6", 503, 479,
+            "RWD", "8-speed automatic", 3.8, 155, 19, 76000,
+            "Level 2 Driving Assistant", "Neon Grey",
+            "The BMW M3 Competition is a high-performance sports sedan that combines track-focused capability with everyday usability. Its powerful engine, precise handling, and aggressive styling make it a standout in its class."),
+        Car("Tesla", "Model X Plaid", 2023, "Midnight Silver",
+            "Tri-Motor All-Wheel Drive", 1020, 1050,
+            "AWD", "Single-speed automatic", 2.5, 163, 102, 110000,
+            "Full Self-Driving (Level 2+)", "Electric Blue",
+            "The Tesla Model X Plaid is an all-electric luxury SUV with breathtaking performance and cutting-edge technology. Its falcon-wing doors, spacious interior, and industry-leading range make it a futuristic family hauler."),
     ]
     return cars
 
