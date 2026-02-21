@@ -85,6 +85,12 @@ def create_car_list():
             "RWD", "automatic", 2.1, 203, "Electric", 40000,
             "Level 2 Terrain Assist", "Arancio Borealis",
             "The tesla is a electic car and you have to charge it instead of fueling like other gas cars. "),
+        Car("BMW", "M3 competition", 2023, "Isle ",
+            "Electric", 641, 627,
+            "RWD", "automatic", 2.1, 203, "Electric", 40000,
+            "Level 2 Terrain Assist", "Arancio Borealis",
+            "The tesla is a electic car and you have to charge it instead of fueling like other gas cars. "),
+        
     ]
     return cars
 
