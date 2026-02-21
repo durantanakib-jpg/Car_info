@@ -91,6 +91,12 @@ def create_car_list():
             "AWD", "Single-speed automatic", 2.5, 163, 102, 110000,
             "Full Self-Driving (Level 2+)", "Electric Blue",
             "The Tesla Model X Plaid is an all-electric luxury SUV with breathtaking performance and cutting-edge technology. Its falcon-wing doors, spacious interior, and industry-leading range make it a futuristic family hauler."),
+        # New Dodge Demon 170:
+        Car("Dodge", "Challenger SRT Demon 170", 2023, "Plum Crazy Purple",
+            "6.2L Supercharged HEMI V8 (E85)", 1025, 945,
+            "RWD", "8-speed automatic", 1.66, 140, 13, 100000,
+            "Level 1 Drag Assist", "Inferno Red",
+            "The Dodge Challenger SRT Demon 170 is the ultimate factory drag car, designed to dominate the quarter mile. With up to 1,025 horsepower on E85, it features a trans brake, drag radial tires, and a host of performance upgrades, making it the most powerful muscle car ever produced."),
     ]
     return cars
 
